@@ -4,8 +4,8 @@
 #include "SoftwareSerial.h"
 #include "DFRobotDFPlayerMini.h"
 
-#define trigPin 8
-#define echoPin 9
+#define echoPin 8
+#define trigPin 9
 long duration1, distance1;
 
 

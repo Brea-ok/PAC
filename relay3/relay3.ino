@@ -1,7 +1,7 @@
 
 #define relay  2
-#define echoPin 8 
-#define trigPin 9 
+#define echoPin 8
+#define trigPin 9
 
 int distance;
 int unos;
