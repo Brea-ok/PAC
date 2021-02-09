@@ -46,7 +46,7 @@ void loop()
   if (distance1<=40){
     myDFPlayer.play(1);
     Serial.println("sono");
-    delay(5000);
+    delay(3000);
   }
   delay(200);
 }
