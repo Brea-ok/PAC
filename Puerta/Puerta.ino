@@ -43,7 +43,7 @@ void loop()
     duration1 = pulseIn(echoPin, HIGH);
     distance1 = (duration1/2) / 29.1;
     Serial.println(distance1);
-  if (distance1<=40){
+  if (distance1<=85){
     myDFPlayer.play(1);
     Serial.println("sono");
     delay(3000);
